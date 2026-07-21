@@ -1,0 +1,11 @@
+{
+  "name": "@utopia-studio/design-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Utopia Design Agent — Central Design Agent, Design Knowledge Layer, Ceramic adapter",
+  "license": "UNLICENSED",
+  "scripts": {
+    "check:links": "node scripts/check-structure.mjs",
+    "check": "npm run check:links"
+  }
+}

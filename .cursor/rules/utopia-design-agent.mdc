@@ -1,0 +1,14 @@
+---
+description: Utopia Design Agent — knowledge layer + Ceramic adapter
+alwaysApply: true
+---
+
+# Utopia Design Agent
+
+Stack: **Design System (Ceramic) → Design Knowledge Layer → Agent**.
+
+1. Load `context/agent-context.md` and prefer `DK-*` citations via `ask-design-knowledge`.
+2. Discover UI with Ceramic CLI/MCP (`adapters/ceramic`, `use-ceramic`) — never invent APIs.
+3. Default loop: `agents/loops/central-design-cycle.md` — do not skip learning review after real builds.
+4. Refine memory with `refine-memory`; keep `context/agent-context.md` short.
+5. Ceramic contract changes = human-gated PRs in Ceramic — never silent edits here.

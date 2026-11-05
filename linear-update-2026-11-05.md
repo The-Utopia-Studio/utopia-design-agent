@@ -1,0 +1,8 @@
+**Progress update — Wed 5 Nov**
+
+- Shipped the new fellow onboarding experience in UtopiaOS: a guided tour of the workspace after onboarding, tours on individual pages, the plan split across two cleaner screens, and a simpler path through connecting AI tools. The old Library page that listed every module has been retired.
+- Launched the studio side of Cobi, so the team can ask about fellow and venture data with more visibility than a fellow gets. Testing showed it returning accurate venture numbers and correctly surfacing the weaker ventures.
+- Added Ask the wiki, which lets fellows search their own meetings and studio sources in plain language, plus accessibility fixes and clearer failure messages on the walkthrough video job.
+- Started wiring Cobi into the tools fellows actually build in. Codex now picks up Cobi approved work on its own at the start of a new chat. The same thing for Ceramic setup is written and in review, not merged yet.
+- In progress: having UtopiaOS serve the Utopia skills directly so fellows can install them without GitHub access. Still open for review, and testing turned up a mismatch between the skill names in the OS and the real skill repo that needs fixing before this is usable.
+- Ran a full testing pass on Cobi and the learning modules with James, which produced a working list of bugs and features to pick up (tool connection state, skill syncing, usage caps, queued job visibility). Also scoped the analytics we need on staging to see who is using the OS and how often, and chased the outstanding owners for the Product, GTM and Partnerships module content.

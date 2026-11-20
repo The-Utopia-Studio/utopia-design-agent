@@ -1,0 +1,7 @@
+**Progress update, 20 November**
+
+- Shipped the studio member fellow setup to staging. A team member can now be given a test fellow account that appears on the fellows list with its own badge and its own desk, so we can walk through a fellow's journey ourselves instead of relying on a real fellow to test with. These accounts are deliberately left out of provisioning, fellow counts, trackers, exports and emails so they cannot mix into real data.
+- Made giving and removing fellow access much clearer. The two old checkboxes are now a single choice, every change asks for confirmation and says what it will do, and each person's row shows a plain one line summary of what they can reach.
+- Closed a gap where archiving a fellow's record left their access switched on. Archiving now removes fellow access the same way removing the role does, while anyone who is still a fellow through another record keeps theirs.
+- Kept moving on the announcements and updates work, which covers sending announcements by email, Slack and a public page with approval needed before anything goes out, plus skill alerts, the public updates page and waitlist, and the My work page. This one is still open and in review rather than finished, and today was mostly keeping it in step with the latest staging.
+- Still to sort out: eight staff and team accounts are marked as plain fellows and are being counted as real fellows.
